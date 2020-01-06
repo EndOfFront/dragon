@@ -1,0 +1,65 @@
+.home {
+  height: calc(100vh - 90px);
+  overflow: auto;
+  width: 100%;
+  // & .ant-layout {
+  //   background-color: #fff;
+  //   overflow-y: auto;
+  //   overflow-x: auto;
+  // }
+  & .wrap {
+    width: 1580px;
+    margin: 0 auto;
+    & .ant-card-extra {
+      padding: 7px 0;
+    }
+  }
+  .ant-table-thead > tr > th {
+    font-weight: bold;
+  }
+  .imgStyle {
+    width: 100px;
+    height: 100px;
+  }
+  .homeCard {
+    // width: 260px;
+    // height: 250px;
+    margin-right: 10px !important;
+    box-shadow: 0 5px 15px 0 #e2e6ec;
+    .ant-card-actions {
+      margin-top: -29px;
+      background:#fff;
+    }
+    .title {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      height: 40px;
+      font-weight: bolder;
+      margin: 0;
+    }
+  }
+  .card-list>.ant-col:nth-child(1) .homeCard{
+    width:254px;
+    height: 253px;
+  }
+  .card-list>.ant-col:nth-child(4n) .homeCard{
+    margin-right: 0px;
+  }
+  .memu {
+    width: 372px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .home {
+    & .wrap {
+      width: 1480px;
+      margin: 0 auto;
+    }
+    .memu {
+      // width:auto
+    }
+  }
+}

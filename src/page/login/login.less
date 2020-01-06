@@ -1,0 +1,122 @@
+
+.splash {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/loading.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    & ul {
+        position: absolute;
+        left: 60px;
+        top: 99px;
+        list-style: none;
+        padding: 0;
+        & li {
+            color: #fff;
+            line-height: 33px;
+        }
+    }
+
+    & .title {
+        position: absolute;
+        font-size: 20px;
+        line-height: normal;
+        font-weight: 500;
+        width: 191px;
+        height: 28px;
+        left: 33px;
+        top: 57px;
+        color: #fff;
+    }
+    & .txt{
+        color: #fff;
+        font-size: 12px;
+        left: 60px;
+        top: 210px;
+        position: absolute;
+
+    }
+    & .copy-right {
+        left: 20px;
+        top: 365px;
+        position: absolute;
+        color: #ffffff;
+        font-size: 12px;
+        font-family: "Arial";
+    }
+    & .version{
+        left: 20px;
+        top: 250px;
+        position: absolute;
+        color: #fff;
+        font-size: 12px;
+        font-family: "Arial";
+    }
+    & .autuor {
+        width: 220px;
+        left: 20px;
+        top: 280px;
+        position: absolute;
+        color: #fff;
+        font-size: 12px;
+        font-family: "Arial";
+    }
+
+    & .spinner {
+        position: absolute;
+        width: 50px;
+        height: 20px;
+        text-align: center;
+        font-size: 10px;
+        left: 158px;
+        top: 208px;
+    }
+
+    & .spinner>div {
+        background-color: #fff;
+        height: 100%;
+        width: 4px;
+        display: inline-block;
+        -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+        animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    }
+
+    & .spinner .rect2 {
+        -webkit-animation-delay: -1.1s;
+        animation-delay: -1.1s;
+    }
+
+    & .spinner .rect3 {
+        -webkit-animation-delay: -1.0s;
+        animation-delay: -1.0s;
+    }
+
+    & .spinner .rect4 {
+        -webkit-animation-delay: -0.9s;
+        animation-delay: -0.9s;
+    }
+
+    & .spinner .rect5 {
+        -webkit-animation-delay: -0.8s;
+        animation-delay: -0.8s;
+    }
+
+
+    @keyframes sk-stretchdelay {
+
+        0%,
+        40%,
+        100% {
+            transform: scaleY(0.4);
+            -webkit-transform: scaleY(0.4);
+        }
+
+        20% {
+            transform: scaleY(1.0);
+            -webkit-transform: scaleY(1.0);
+        }
+    }
+}

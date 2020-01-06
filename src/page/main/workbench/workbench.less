@@ -1,0 +1,50 @@
+.workbench{
+    height: calc(100vh - 42px);
+    user-select:none;
+    .content{
+        position: relative;
+        padding:10px 25px 20px 25px;
+        background-image:url(../../../assets/images/bg.jpg);
+    }
+    .left-sider{
+        & .ant-layout-sider-children{
+            overflow-y: auto;
+        }
+    }
+    .right-sider{
+        & .ant-layout-sider-children{
+            overflow-y: auto;
+        }
+    }
+    .ant-layout-sider-zero-width-trigger{
+        width: 25px;
+        right: -24px;
+    }
+    .ant-layout-sider-zero-width-trigger-right{
+        left: -24px;
+    }
+}
+.workbench-capture{
+    height: 100vh;
+    .content{
+        position: relative;
+        overflow: auto;
+        // background-image:url(../../../assets/images/bg.jpg);
+        .designer{
+            overflow: auto;
+        }
+    }
+}
+.fixedbuttom {
+    width: 35px;
+    height: 35px;
+    background-color: #fde9e9;
+    text-align: center;
+    cursor: pointer;
+    line-height: 42px;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.15);
+    z-index: 99;
+    position: absolute; //关键
+    bottom:10%;
+    right: 7%;
+  }
