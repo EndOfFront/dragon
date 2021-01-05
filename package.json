@@ -9,7 +9,7 @@
         "@hot-loader/react-dom": "^16.11.0",
         "@types/puppeteer": "^2.0.0",
         "antd": "^3.25.1",
-        "axios": "^0.19.0",
+        "axios": "^0.21.1",
         "bowser": "^2.7.0",
         "cropperjs": "^1.5.6",
         "dom-to-image": "^2.6.0",
