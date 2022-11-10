@@ -52,7 +52,7 @@
         "babili-webpack-plugin": "^0.1.2",
         "cfonts": "^2.4.5",
         "customize-cra": "^0.8.0",
-        "electron": "4.2.10",
+        "electron": "18.3.7",
         "electron-builder": "^21.2.0",
         "electron-devtools-installer": "2.2.4",
         "less": "^3.10.3",
